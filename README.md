@@ -4,7 +4,7 @@
 ## Usage
 
 ``` main.ts
-import {parse} from "https://denopkg.com/nekobato/deno-xml-parser/index.ts";
+import parse from "https://denopkg.com/nekobato/deno-xml-parser/index.ts";
 
 const node = parse("<foo>hello world</foo>");
 console.log(node);
