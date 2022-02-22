@@ -1,4 +1,4 @@
-interface Document {
+export interface Document {
   declaration: {
     attributes: {};
   };
@@ -9,7 +9,7 @@ interface Document {
   } | undefined;
 }
 
-interface Xml {
+export interface Xml {
   name: string;
   attributes: any;
   content?: string;
