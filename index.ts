@@ -13,7 +13,7 @@ export interface XML {
   name: string;
   attributes: any;
   content?: string;
-  children: Xml[];
+  children: XML[];
 }
 
 /**
@@ -77,7 +77,7 @@ export default function parse(xml: string): Document {
     if (!m) return;
 
     // name
-    var node: Xml = {
+    var node: XML = {
       name: m[1],
       attributes: {},
       children: []
