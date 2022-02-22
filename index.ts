@@ -9,7 +9,7 @@ export interface Document {
   } | undefined;
 }
 
-export interface Xml {
+export interface XML {
   name: string;
   attributes: any;
   content?: string;
